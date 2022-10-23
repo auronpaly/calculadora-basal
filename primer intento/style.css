@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#estructura {
+     background-color: rgb(238, 255, 88);
+     width: 700px;
+     height: 500px;
+     position: absolute;
+     inset: 0;
+     margin: auto;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+     0 10px 10px rgba(0,0,0,0.22);
+}
+#formulario{
+    background-color:#f1f7ed;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#detalle{
+    background-color:#b3001b;
+    color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contenido {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+input {
+    background-color:#DADDD8;
+    padding: 15px 10px;
+    border: none;
+    font-family: 'Monserrat', sans-serif;
+    width: 70%;
+    margin-bottom: 15px;
+}
+button{
+    padding: 14px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Monserrat', sans-serif;
+    background-color:#b3001b;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+#volumen{
+    color: #b3001b;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant-numeric: 30px;
+}
